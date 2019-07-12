@@ -8,71 +8,75 @@
             <tbody>
                 <tr>
                     <td><label>Nickname * </label></td>
-                    <td><input type="text"></input></td>
+                    <td><input type="text" name="nick name"></input></td>
                 </tr>
                 <tr>
                     <td><label>Password * </label></td>
-                    <td><input type="password"></input></td>
+                    <td><input type="password" name="pswd"></input></td>
                 </tr>
                 <tr>    
                     <td><label>Repeat Password * </label></td>
-                    <td><input type="password"></input></td>
+                    <td><input type="password" name="repet pswd"></input></td>
                 </tr>
                 <tr>
                     <td><label>Birthdate * </label></td>
-                    <td><select>
-                            <option>01-05-88</option>
-                            <option>21-10-93</option>
-                    </select></td>
+                    <td>
+                        <input type="date" max<"2019-07-11"></input>
+                    </td>
                 </tr>
                 <tr>
                     <td><label>Gender * </label></td>
                     <td>
-                        <input type="radio" name="gender">Male</input>
-                        <input type="radio" name="gender">Female</input>
+                        <input type="radio" name="gender" value="male">Male</input>
+                        <input type="radio" name="gender" value="female">Female</input>
                     </td>
                 </tr>
                 <tr>
                     <td><label>Email * </label></td>
-                    <td><input type="text"></input></td>
+                    <td><input type="email" name="email"></input></td>
                 </tr>
                 <tr>
                     <td><label>First Name </label></td>
-                    <td><input type="text"></input></td>
+                    <td><input type="text" name="first name"></input></td>
                 </tr>
                 <tr>
                     <td><label>Last Name </label></td>
-                    <td><input type="text"></input></td>
+                    <td><input type="text" name="last name"></input></td>
                 </tr>
                 <tr>
+                    <td><label>phone number</lbel></td>
+                    <td>
+                        <input name="tel num" type=tel {0-9}3-{0-9}3-{0-9}4>format 123-456-7890
+                    </td>
+                <tr>
                     <td><label>Street </label></td>
-                    <td><input type="text"></input></td>
+                    <td><input type="text" name="street"></input></td>
                 </tr>
                 <tr>
                     <td><label>Street Number </label></td>
-                    <td><input type="text"></input></td>
+                    <td><input type="number" name="street num"></input></td>
                 </tr>
                 <tr>
                     <td><label>City </label></td>
-                    <td><input type="text"></input></td>
+                    <td><input type="text" name="city"></input></td>
                 </tr>
                 <tr>
                     <td><label>Postcode </label></td>
-                    <td><input type="text"></input></td>
+                    <td><input type="text" name="postcard"></input></td>
                 </tr>
                 <tr>
                     <td><label>Region </label></td>
-                    <td><input type="text"></input></td>
+                    <td><input type="text" name="region"></input></td>
                 </tr>
                 <tr>
                     <td><label>Country </label></td>
                     <td>
-                        <select>
-                            <option>India</option>
-                            <option>United States</option>
-                            <option>Canada</option>
-                            <option>United Kingdom</option>
-                            <option>China</option>
+                        <select name="country">
+                            <option value="india">India</option>
+                            <option value="usa" selected>United States </option>
+                            <option value="canada">Canada</option>
+                            <option value="uk">United Kingdom</option>
+                            <option value="china">China</option>
                         </select>
                     </td>
                 </tr>
@@ -83,8 +87,8 @@
                 <tr>
                     <td></td>
                     <td>
-                        <input type="button" value="Submit"></input>
-                        <input type="button" value="Reset"></input>
+                        <input type="submit" value="Submit"></input>
+                        <input type="reset" value="Reset"></input>
                         <input type="button" value="Cancel"></input>
                     </td>
                 </tr>
